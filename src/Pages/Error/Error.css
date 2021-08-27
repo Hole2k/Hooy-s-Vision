@@ -1,0 +1,11 @@
+.content {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 35px;
+    margin: auto;
+    color: white;
+}
