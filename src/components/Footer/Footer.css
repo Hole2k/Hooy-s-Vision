@@ -1,0 +1,88 @@
+.footer-container {
+    background-color: #08a8f2;
+    color: white;
+    margin-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer-container .inside-footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 40px;
+    justify-content: center;
+
+}
+
+hr {
+    border: solid 1px black;
+}
+
+.home-footer {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    color: white;
+}
+
+.home-footer .author a {
+    color: white;
+    text-decoration: none;
+}
+
+.home-footer .author a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+/*----------------------------- Ogólny styl ikon ------------------------------------*/
+.home-social {
+    text-align: right;
+    font-size: 40px;
+    margin: 20px;
+
+}
+
+.home-social a {
+    list-style: none;
+    color: white;
+}
+
+.home-social :hover {
+    font-size: 50px;
+    transition: all 0.5s;
+}
+
+
+/*----------------------------- Ikona patreon ------------------------------------*/
+.home-social .patreon {
+    margin-right: 20px;
+}
+
+.home-social .patreon:hover {
+    color: #f96854;
+}
+
+/*----------------------------- Ikona facebook ------------------------------------*/
+.home-social .fb {
+    margin-right: 20px;
+}
+
+.home-social .fb:hover {
+    color: #3b5998;
+}
+
+/*----------------------------- Ikona instagram ------------------------------------*/
+.home-social .insta {
+    margin-right: 20px;
+}
+
+.home-social .insta:hover {
+    color: #fcaf45;
+}
+
+/*----------------------------- Ikona blogu ------------------------------------*/
+
+.home-social .blog:hover {
+    color: rgb(230, 111, 31);
+}

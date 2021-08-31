@@ -1,0 +1,30 @@
+.register-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.register-form h2 {
+    margin-bottom: 25px;
+}
+
+.register-form input {
+    margin-bottom: 25px;
+}
+
+.register-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-logo img {
+    width: 500px;
+    border-radius: 50%;
+}

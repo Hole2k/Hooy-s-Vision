@@ -1,0 +1,47 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 20px;
+    color: white;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 12%;
+    margin-bottom: 40px;
+}
+
+.cart {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.cart img {
+    width: 80%;
+    height: 80%;
+}
+
+.cost {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 5px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
+
+
+.cart button {
+    width: 100px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin: auto;
+    font-size: 15px;
+}
+
+.cart button:hover {
+    color: white;
+    background-color: black;
+}

@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import './Navbar.css';
 import {NavbarItems} from './NavbarItems';
-import {GiHamburgerMenu} from 'react-icons/gi'; 
-import {AiOutlineCloseCircle} from 'react-icons/ai'; 
+
 
 class Navbar extends Component
 {
@@ -17,7 +16,7 @@ class Navbar extends Component
     render(){
         return(
             <nav className="NavbarItems">
-        <h1 className="navbar-logo">Hooy's Vision</h1>
+        <h1  className="navbar-logo">Hooy's Vision</h1>
             <div className="menu-icon" onClick={this.handleClick}>
 <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i> {/*Zmiana ikony menu (Jeżeli klikniemy pojawi się X, aby ,,zamknąc")*/}
             </div>

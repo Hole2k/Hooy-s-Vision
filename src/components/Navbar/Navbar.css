@@ -6,6 +6,8 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+
+
 }
 
 .navbar-logo {
@@ -17,7 +19,6 @@
 
 .navbar-logo:hover {
     color: white;
-
 }
 
 .nav-menu {
@@ -72,7 +73,7 @@
     }
 
     .nav-menu.active {
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.7);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;

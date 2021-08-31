@@ -2,19 +2,28 @@ export const NavbarItems =
 [
     {
         title: 'SHOP',
-        url: '/SHOP',
+        url: '/Shop',
         cName: 'nav-links'
     },
     {
         title: 'CONTACT',
-        url: '/CONTACT',
+        url: '/Contact',
         cName: 'nav-links'   
      },
-    {
-        title: 'ACCOUNT',
-        url: '/ACCOUNT',
+
+
+         {
+        title: 'LOGIN',
+        url: '/Login',
         cName: 'nav-links'   
      },
+     
+     {
+        title: 'REGISTER',
+        url: '/register',
+        cName: 'nav-links'   
+     },
+     
 
      {
         title: 'Hooy`s Vision',
