@@ -2,11 +2,13 @@ import './App.css';
 import Home from './Pages/HomePage/Home';
 import Error from './Pages/Error/Error';
 import Navbar from './components/Navbar/Navbar';
+import Navbar1 from './components/Navbar1/Navbar1';
 import Contact from './Pages/Contact/Contact'
 import Shop from './Pages/Shop/Shop'
 import Login from './Pages/Login/Login'
 import Register from './Pages/Register/Register'
 import Footer from './components/Footer/Footer';
+import Footer1 from './components/Footer1/Footer1';
 
 import {BrowserRouter as Router, Route, Switch, Redirect} from "react-router-dom";
 
@@ -16,7 +18,7 @@ function App() {
   return (
     <div className="App">
 <Navbar/>
-
+<div className="main-container">
 <Router>
     <Switch>
       <Route exact path ="/" component = {Home}/>
@@ -29,7 +31,7 @@ function App() {
 
     </Switch>
     </Router>
-
+    </div>
     <Footer/>
     </div>
   );

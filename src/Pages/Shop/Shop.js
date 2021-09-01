@@ -14,7 +14,7 @@ class Shop extends Component{
                 {ShopItems.map((item, index) =>{
 return(
 <div key={index} className="cart">
-<img src={item.url}/>
+<img src={item.url}  width="600" height="400"/>
 <p className="name">{item.title}</p>
 <div className="cost">
 <p>{item.cost} PLN</p>

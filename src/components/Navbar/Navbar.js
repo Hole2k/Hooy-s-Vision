@@ -32,7 +32,10 @@ class Navbar extends Component
                 })}
 
             </ul>
+   
             </nav>
+            
             )
+            
 }}
 export default Navbar;

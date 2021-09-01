@@ -1,14 +1,17 @@
 .NavbarItems {
-    background-color: transparent;
-    height: 80px;
-    color: white;
     display: flex;
+    position: fixed;
+    height: 80px;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
     font-size: 1.2rem;
-
+    overflow: hidden;
 
 }
+
 
 .navbar-logo {
     color: #08a8f2;
