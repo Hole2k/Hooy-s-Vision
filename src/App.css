@@ -1,7 +1,5 @@
 html {
-    box-sizing: border-box;
     background-image: url(https://i.pinimg.com/originals/0e/60/68/0e6068eb08dddb94950bbb177abf1c52.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -10,6 +8,7 @@ html {
     margin-left: 10%;
     margin-right: 12%;
     margin-bottom: 40px;
+
 }
 
 /*----------------------------- Styl dla szerokości ekranu 1280px ------------------------------------*/

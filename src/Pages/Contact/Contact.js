@@ -40,7 +40,7 @@ class Contact extends Component
     </div>
 
     <div className="contact-map">
-    <iframe className="map" title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6308.959161474184!2d-122.49805874851518!3d37.75535166865468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858786330a573b%3A0x3806be21b71da9e8!2sOuter%20Sunset%2C%20San%20Francisco%2C%20Kalifornia%2C%20Stany%20Zjednoczone!5e0!3m2!1spl!2spl!4v1630313729131!5m2!1spl!2spl" ></iframe>    </div>
+    <iframe className="map" title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d297572.6045608055!2d18.409851193399042!3d54.36076295724931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd731c14d4fa6f%3A0x9bb9fbf163b7be8d!2zR2RhxYRzaw!5e0!3m2!1spl!2spl!4v1630567376237!5m2!1spl!2spl" ></iframe>    </div>
 
 </div>
         )

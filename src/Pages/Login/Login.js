@@ -16,7 +16,7 @@ class Login extends Component{
 
     <label for="password">Password</label>
     <input type="text" id="password" name="password"/>
-    <p>Lost your password? <a href="/remind">Remind password</a></p>
+    <p><a href="/remind">Remind password</a></p>
     <input type="checkbox" />Remember me 
   <span class="checkmark"></span>
     <input type="submit" value="Login"/>

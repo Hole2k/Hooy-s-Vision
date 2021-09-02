@@ -12,21 +12,17 @@ return(
 <h1>Store Information</h1>
 <hr/>
 <div>
-<p>Black Sun Miniatures produce a diverse range of high quality resin miniatures, specialising in fantasy and science fiction figures for painters and collectors.</p>
-<p>Based in the United Kingdom we are an independent miniatures company made possible by collaborating with top artists located across the world.</p>
-<p>contact@blacksunminiatures.co.uk</p>
+<p>Hooy's Vision produce a diverse range of high quality resin miniatures, specialising in fantasy and science fiction figures for painters and collectors..</p>
+<p>Based in the Gdańsk we are an independent miniatures company </p>
 </div>
 </div>
 
 <div>
-  <h1>Newsletter</h1>
-  <hr/>
-  <div>
-  <p>Join the black sun hobby cult for the latest news and special offers</p>
 
+  <div>
   <h1>SHIPPING</h1>
   <hr/>
-  <p>FREE WORLDWIDE SHIPPING on all orders over £120</p>
+  <p>FREE WORLDWIDE SHIPPING on all orders over 400 PLN</p>
 </div>
 </div>
 
@@ -34,13 +30,10 @@ return(
 <h1>Follow Us</h1>
 <hr/>
 <div>
-<p>Follow us on Facebook to preview our latest projects</p>
+<p>Follow us on Social media to preview our all projects</p>
 
-<h1>Payment Options</h1>
-<hr/>
-<p>Follow us on Facebook to preview our latest projects</p>
 
-<p></p>
+
 </div>
 </div>
 

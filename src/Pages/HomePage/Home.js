@@ -25,7 +25,7 @@ render()
 
 
         <div className="home-button">         
-            <button type="button">SHOP NOW</button>
+          <a href="/Shop"><button type="button">SHOP NOW</button></a>
         </div>
         </div>
     )

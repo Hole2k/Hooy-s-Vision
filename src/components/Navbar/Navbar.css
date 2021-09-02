@@ -8,10 +8,13 @@
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
     font-size: 1.2rem;
-    overflow: hidden;
+
 
 }
 
+.NavbarItems a {
+    text-decoration: none;
+}
 
 .navbar-logo {
     color: #08a8f2;
@@ -20,8 +23,13 @@
     cursor: pointer;
 }
 
+
+
 .navbar-logo:hover {
-    color: white;
+    background: -webkit-linear-gradient(#eee, #08a8f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .nav-menu {
@@ -60,6 +68,8 @@
     .NavbarItems {
         position: relative;
         margin-bottom: 10px;
+
+
     }
 
     .nav-menu {
@@ -76,7 +86,10 @@
     }
 
     .nav-menu.active {
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgb(255, 255, 255, 0.7);
+        padding-top: 60px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -127,7 +140,7 @@
         text-align: center;
         padding: 1.5rem;
         margin: 2rem auto;
-        border-radius: 4px;
+        border-radius: 10px;
         width: 50%;
         background: #08a8f2;
         text-decoration: none;
