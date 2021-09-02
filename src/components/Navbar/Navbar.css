@@ -26,9 +26,11 @@
 
 
 .navbar-logo:hover {
-    background: -webkit-linear-gradient(#eee, #08a8f2);
+    transition: all 1s;
+    color: white;
+    /* background: -webkit-linear-gradient(#eee, #08a8f2);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;*/
 
 }
 
