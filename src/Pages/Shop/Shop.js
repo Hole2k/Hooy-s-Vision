@@ -14,10 +14,10 @@ class Shop extends Component{
                 {ShopItems.map((item, index) =>{
 return(
 <div key={index} className="cart">
-<img src={item.url}  width="600" height="400"/>
+<a href="#"><img src={item.url} width="600" height="400"/></a>
 <p className="name">{item.title}</p>
 <div className="cost">
-<p>{item.cost} PLN</p>
+<p>{item.price} PLN</p>
 <button>Add to cart</button>
 </div>
 </div>

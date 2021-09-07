@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import './Navbar.css';
 import {NavbarItems} from './NavbarItems';
-
-
+import { GiBasketballBasket } from 'react-icons/gi';
 class Navbar extends Component
 {
     state = {clicker: false}
@@ -30,7 +29,8 @@ class Navbar extends Component
                     </li>
                     )
                 })}
-
+                
+<GiBasketballBasket className="basket-icon" />
             </ul>
    
             </nav>

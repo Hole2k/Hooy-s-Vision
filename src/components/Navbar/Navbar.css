@@ -36,12 +36,13 @@
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(6, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
     width: 70%;
     justify-content: end;
+    padding: auto;
 
 }
 
@@ -64,6 +65,18 @@
 
 .menu-icon {
     display: none;
+}
+
+
+.basket-icon {
+    color: white;
+    font-size: 30px;
+
+}
+
+.basket-icon:hover {
+    cursor: pointer;
+    color: #08a8f2;
 }
 
 @media screen and (max-width: 960px) {

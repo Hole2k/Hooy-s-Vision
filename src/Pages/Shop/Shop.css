@@ -42,6 +42,7 @@
 .cart button:hover {
     color: white;
     background-color: #08a8f2;
+    cursor: pointer;
 }
 
 
